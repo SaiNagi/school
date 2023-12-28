@@ -1,0 +1,131 @@
+body,
+h1,
+h2,
+h3,
+p,
+form,
+input,
+select,
+textarea,
+button3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4; /* Set a light background color */
+}
+
+/* Global Styles */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper1 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-heading {
+  width: 100%;
+  max-width: 1200px;
+  height: 160px;
+}
+.container1 {
+  width: 80%;
+  min-width: 1000px;
+  /* margin: 0 auto; */
+  height: 130px;
+}
+
+/* Header Styles */
+header {
+  background: #6e0202;
+  color: white;
+  padding: 10px 0;
+  height: 100px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+th {
+  height: 40px;
+  animation: none;
+}
+
+/* Main Section Styles */
+#main1 {
+  padding: 20px 0;
+}
+
+/* Form Styles */
+.a11 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.a11 th,
+.a11 td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.a11 th {
+  background: #6e0202;
+  color: white;
+}
+
+.a11 input,
+.a11 select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button3 {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #00d7c3;
+  width: 170px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button3:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+.WebContainer {
+  width: 80%;
+  min-width: 1000px;
+  height: auto;
+}
+
+/* tr {
+  transition: none;
+} */
